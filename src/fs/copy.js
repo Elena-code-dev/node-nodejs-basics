@@ -1,5 +1,7 @@
+import fs from 'fs';
+
 const copy = async () => {
-    // Write your code here 
+    fs.copy('files', 'files_copy')
 };
 
 await copy();
